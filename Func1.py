@@ -9,3 +9,9 @@ def multi(list):
     for i in list:
         ans = ans * i
     return ans
+
+def average(list):
+    ans = 0
+    for i in list:
+        ans = ans + i
+    return (ans / len(list))
